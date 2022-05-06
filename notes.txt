@@ -4,3 +4,4 @@ video can be accessed using frames and capture and once done we use capture.rele
 
 cv.resize() resizes the frame to a particular dimension
 
+dtype="uint8" basically an image the dataype of an image
