@@ -1,0 +1,6 @@
+negative assertion failure means that the video/phot cant be accessed at that specific location or the video ran out of frames.
+
+video can be accessed using frames and capture and once done we use capture.release and destoryAllWindows
+
+cv.resize() resizes the frame to a particular dimension
+
