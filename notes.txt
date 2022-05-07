@@ -25,3 +25,19 @@ In Flipping function the flipCode can be
 0 flipping it vertically
 1 flipping it horizintally
 -1 flipping it both vertically and horizontally
+
+In contours and hierrarchies
+
+hierrachy means hierarhial represnetation of the Contours
+
+retr list returns all the contours presnt in the Image
+chain_approx_none how we want to dispaly the Contours
+some people use chain_Approx_simple which will compress all the quantities that are returned
+
+Threshold
+looks at the image and binarize that image
+so if a particular pixel is below 125 it sets to zero or Blank
+and if the pixel is over 125 it is set to white or 2/5
+
+
+Better way would be to use canny and blur for contours rather than threshold method
