@@ -5,3 +5,12 @@ video can be accessed using frames and capture and once done we use capture.rele
 cv.resize() resizes the frame to a particular dimension
 
 dtype="uint8" basically an image the dataype of an image
+
+By sending the blur instead of image we can reduce the edge cascade
+
+In Resize function
+the interpolation can ve set to cv.INTER_AREA
+if the image is larger and we have to shrink it to a specific dimension
+
+else we can set the interpolation to cv.INTER_LINEAR or cv.INTER_CUBIC
+if the image is smaller and we have to enlarge it to a specific dimension
