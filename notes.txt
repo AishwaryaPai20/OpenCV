@@ -14,3 +14,14 @@ if the image is larger and we have to shrink it to a specific dimension
 
 else we can set the interpolation to cv.INTER_LINEAR or cv.INTER_CUBIC
 if the image is smaller and we have to enlarge it to a specific dimension
+
+In translation function
+-x ---> left
+-y ---> right
+x  ---> right
+y  ---> down
+
+In Flipping function the flipCode can be
+0 flipping it vertically
+1 flipping it horizintally
+-1 flipping it both vertically and horizontally
