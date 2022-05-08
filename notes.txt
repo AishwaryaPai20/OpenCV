@@ -41,3 +41,10 @@ and if the pixel is over 125 it is set to white or 2/5
 
 
 Better way would be to use canny and blur for contours rather than threshold method
+
+In averaging process
+it computes the average of all of the running pixel intensity values
+
+In gaussian blur each intensity is given a certain weight and is much more natural
+
+In median blur is more effective ,reduces noise as it uses median rather than the Average
